@@ -53,7 +53,10 @@ justify-content: center;
 text-align: center;
 /* scale: 0; */
 /* visibility:hidden; */
-transform: translatey(-800px);
+/* transform: translatey(-800px); */
+/* transform: translatex(-800px); */
+transition: all 2s;
+transform: translate(800px,-800px);
 
 }
 .wrapper{
@@ -83,7 +86,9 @@ transform: translatey(-800px);
 background: var(--overlay-color);
 /* scale: 1; */
 transition: all 2s;
-transform: translatey(00px)
+/* transform: translatey(0px) */
+/* transform: translatex(0px) */
+transform: translate(0px,0px);
 }
 
 .showcase{
